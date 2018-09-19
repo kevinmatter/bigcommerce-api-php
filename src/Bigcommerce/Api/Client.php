@@ -490,7 +490,7 @@ class Client
      */
     public static function getProductCustomFields($id)
     {
-        return self::getCollection('/products/' . $id . '/customfields/', 'ProductCustomField');
+        return self::getCollection('/products/' . $id . '/customfields', 'ProductCustomField');
     }
 
     /**
